@@ -1,0 +1,358 @@
+[
+  {
+    "type": "subscriptions",
+    "channels": [
+      {
+        "name": "full",
+        "product_ids": [
+          "BTC-USD",
+          "ETH-USD"
+        ]
+      },
+      {
+        "name": "heartbeat",
+        "product_ids": [
+          "BTC-USD",
+          "ETH-USD"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "done",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.698598Z",
+    "sequence": 14913715412,
+    "order_id": "a916d210-da6d-46c9-8b8f-25e3ce97bfb1",
+    "reason": "canceled",
+    "price": "9174.26",
+    "remaining_size": "0.18690625"
+  },
+  {
+    "type": "received",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.718033Z",
+    "sequence": 14913715413,
+    "order_id": "0bd6924a-af21-4461-a905-9efa04bf8c2b",
+    "order_type": "limit",
+    "size": "0.1472",
+    "price": "9174.1",
+    "client_oid": "ef5b6e4f-8070-4c29-a8e6-467f53d0cd51"
+  },
+  {
+    "type": "open",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.718033Z",
+    "sequence": 14913715414,
+    "price": "9174.1",
+    "order_id": "0bd6924a-af21-4461-a905-9efa04bf8c2b",
+    "remaining_size": "0.1472"
+  },
+  {
+    "type": "done",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.729180Z",
+    "sequence": 14913715415,
+    "order_id": "d2f80ecb-c6e4-4a96-b37a-0a1f5b66596f",
+    "reason": "canceled",
+    "price": "9179.49",
+    "remaining_size": "0.03847563"
+  },
+  {
+    "type": "received",
+    "side": "buy",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.731839Z",
+    "sequence": 14913715416,
+    "order_id": "1682505e-c05a-4982-97b7-122aa1e51ebf",
+    "order_type": "limit",
+    "size": "0.04",
+    "price": "9119.14",
+    "client_oid": "9e021e52-a1ed-45e9-a0c6-58a6a6101545"
+  },
+  {
+    "type": "open",
+    "side": "buy",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.731839Z",
+    "sequence": 14913715417,
+    "price": "9119.14",
+    "order_id": "1682505e-c05a-4982-97b7-122aa1e51ebf",
+    "remaining_size": "0.04"
+  },
+  {
+    "type": "done",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.737055Z",
+    "sequence": 14913715418,
+    "order_id": "0bd6924a-af21-4461-a905-9efa04bf8c2b",
+    "reason": "canceled",
+    "price": "9174.1",
+    "remaining_size": "0.1472"
+  },
+  {
+    "type": "done",
+    "side": "buy",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.737394Z",
+    "sequence": 14913715419,
+    "order_id": "fc5af50d-c036-45a8-8cac-5b892d4a5fa3",
+    "reason": "canceled",
+    "price": "9119.52",
+    "remaining_size": "0.04"
+  },
+  {
+    "type": "received",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.739325Z",
+    "sequence": 14913715420,
+    "order_id": "0cc551ec-c698-4692-8364-0b6f9274b0c9",
+    "order_type": "limit",
+    "size": "0.03859155",
+    "price": "9179.47",
+    "client_oid": "ee9a73b7-b17f-4a3d-9735-821ad11b2765"
+  },
+  {
+    "type": "open",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.739325Z",
+    "sequence": 14913715421,
+    "price": "9179.47",
+    "order_id": "0cc551ec-c698-4692-8364-0b6f9274b0c9",
+    "remaining_size": "0.03859155"
+  },
+  {
+    "type": "heartbeat",
+    "last_trade_id": 0,
+    "product_id": "ETH-USD",
+    "sequence": 9576353099,
+    "time": "2020-06-25T05:23:31.748078Z"
+  },
+  {
+    "type": "done",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.747302Z",
+    "sequence": 9576353100,
+    "order_id": "95a2594f-a7b2-4726-bf31-9e1f658dc690",
+    "reason": "canceled",
+    "price": "230.35",
+    "remaining_size": "10"
+  },
+  {
+    "type": "received",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.749103Z",
+    "sequence": 14913715422,
+    "order_id": "ea3f748e-31bf-484a-abfb-3aa32916abae",
+    "order_type": "limit",
+    "size": "0.18690625",
+    "price": "9174.07",
+    "client_oid": "cbba1502-cb1e-4b05-b8c3-b8451517df38"
+  },
+  {
+    "type": "open",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.749103Z",
+    "sequence": 14913715423,
+    "price": "9174.07",
+    "order_id": "ea3f748e-31bf-484a-abfb-3aa32916abae",
+    "remaining_size": "0.18690625"
+  },
+  {
+    "type": "received",
+    "side": "buy",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.749262Z",
+    "sequence": 14913715424,
+    "order_id": "2c60cf4c-0cf7-4594-986b-cf370f6ecb10",
+    "order_type": "limit",
+    "size": "0.05294083",
+    "price": "9103.44",
+    "client_oid": "fd33c9a7-24c9-4b4b-97f3-46b0f2e96d39"
+  },
+  {
+    "type": "open",
+    "side": "buy",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.749262Z",
+    "sequence": 14913715425,
+    "price": "9103.44",
+    "order_id": "2c60cf4c-0cf7-4594-986b-cf370f6ecb10",
+    "remaining_size": "0.05294083"
+  },
+  {
+    "type": "received",
+    "side": "sell",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.752027Z",
+    "sequence": 9576353101,
+    "order_id": "2522a4d5-9687-4c5b-966d-cfd4ceb97c5b",
+    "order_type": "limit",
+    "size": "10",
+    "price": "230.43",
+    "client_oid": "f273ae97-9476-424d-a5f8-75b88ffa03ce"
+  },
+  {
+    "type": "open",
+    "side": "sell",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.752027Z",
+    "sequence": 9576353102,
+    "price": "230.43",
+    "order_id": "2522a4d5-9687-4c5b-966d-cfd4ceb97c5b",
+    "remaining_size": "10"
+  },
+  {
+    "type": "done",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.753814Z",
+    "sequence": 9576353103,
+    "order_id": "b0803796-7326-46d0-89a5-f4bab1eb032c",
+    "reason": "canceled",
+    "price": "230.11",
+    "remaining_size": "36.74219227"
+  },
+  {
+    "type": "done",
+    "side": "sell",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.757675Z",
+    "sequence": 9576353104,
+    "order_id": "2522a4d5-9687-4c5b-966d-cfd4ceb97c5b",
+    "reason": "canceled",
+    "price": "230.43",
+    "remaining_size": "10"
+  },
+  {
+    "type": "received",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.770249Z",
+    "sequence": 9576353105,
+    "order_id": "afed6cb5-631f-420b-8c92-cd659f673145",
+    "order_type": "limit",
+    "size": "0.30619373",
+    "price": "230.35",
+    "client_oid": "3a54d800-ae82-46ca-a267-25e1a8bbd3f8"
+  },
+  {
+    "type": "open",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.770249Z",
+    "sequence": 9576353106,
+    "price": "230.35",
+    "order_id": "afed6cb5-631f-420b-8c92-cd659f673145",
+    "remaining_size": "0.30619373"
+  },
+  {
+    "type": "received",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.771706Z",
+    "sequence": 9576353107,
+    "order_id": "5e1ef545-5558-4e3a-bf65-fad36d1287c5",
+    "order_type": "limit",
+    "size": "36.74219227",
+    "price": "230.1",
+    "client_oid": "7b5dbd81-c169-647f-9103-29e00300f000"
+  },
+  {
+    "type": "open",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.771706Z",
+    "sequence": 9576353108,
+    "price": "230.1",
+    "order_id": "5e1ef545-5558-4e3a-bf65-fad36d1287c5",
+    "remaining_size": "36.74219227"
+  },
+  {
+    "type": "received",
+    "side": "sell",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.774617Z",
+    "sequence": 9576353109,
+    "order_id": "52fd2549-32cb-4da5-8eff-d72c43c9a48c",
+    "order_type": "limit",
+    "size": "10",
+    "price": "230.43",
+    "client_oid": "2aca0024-e817-4fdb-b5c7-555fa944c090"
+  },
+  {
+    "type": "open",
+    "side": "sell",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.774617Z",
+    "sequence": 9576353110,
+    "price": "230.43",
+    "order_id": "52fd2549-32cb-4da5-8eff-d72c43c9a48c",
+    "remaining_size": "10"
+  },
+  {
+    "type": "received",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.784008Z",
+    "sequence": 9576353111,
+    "order_id": "3c1c6c77-90bd-4e03-9b6b-f59924cf7d72",
+    "order_type": "limit",
+    "size": "5.71519232",
+    "price": "230.35",
+    "client_oid": "cfdb6170-72e7-4535-bb3a-4a1b2ac96949"
+  },
+  {
+    "type": "open",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.784008Z",
+    "sequence": 9576353112,
+    "price": "230.35",
+    "order_id": "3c1c6c77-90bd-4e03-9b6b-f59924cf7d72",
+    "remaining_size": "5.71519232"
+  },
+  {
+    "type": "received",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.788334Z",
+    "sequence": 9576353113,
+    "order_id": "815738fb-4735-4592-a89d-7a3624930e2e",
+    "order_type": "limit",
+    "size": "3.97861395",
+    "price": "230.35",
+    "client_oid": "129a36d8-e68c-4b87-b908-691ddaa9cb97"
+  },
+  {
+    "type": "open",
+    "side": "buy",
+    "product_id": "ETH-USD",
+    "time": "2020-06-25T05:23:31.788334Z",
+    "sequence": 9576353114,
+    "price": "230.35",
+    "order_id": "815738fb-4735-4592-a89d-7a3624930e2e",
+    "remaining_size": "3.97861395"
+  },
+  {
+    "type": "done",
+    "side": "sell",
+    "product_id": "BTC-USD",
+    "time": "2020-06-25T05:23:31.789710Z",
+    "sequence": 14913715426,
+    "order_id": "ea3f748e-31bf-484a-abfb-3aa32916abae",
+    "reason": "canceled",
+    "price": "9174.07",
+    "remaining_size": "0.18690625"
+  }
+]

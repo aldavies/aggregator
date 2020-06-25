@@ -1,0 +1,11 @@
+{
+  "name": "aggregator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aldavies/aggregator.git",
+  "author": "aldavies <aldavies@umich.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "coinbase-pro": "^0.9.0"
+  }
+}

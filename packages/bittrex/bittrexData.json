@@ -1,0 +1,99 @@
+[
+  {
+    "MarketName": "BTC-ETH",
+    "Nonce": 1172900,
+    "Buys": [
+      {
+        "Type": 1,
+        "Rate": 0.02510574,
+        "Quantity": 0
+      },
+      {
+        "Type": 0,
+        "Rate": 0.0208,
+        "Quantity": 1.42780237
+      }
+    ],
+    "Sells": [
+      {
+        "Type": 0,
+        "Rate": 0.02529281,
+        "Quantity": 5.93491976
+      },
+      {
+        "Type": 0,
+        "Rate": 0.02535167,
+        "Quantity": 7.0368085
+      },
+      {
+        "Type": 1,
+        "Rate": 0.02868988,
+        "Quantity": 0
+      },
+      {
+        "Type": 1,
+        "Rate": 0.02869318,
+        "Quantity": 0
+      }
+    ],
+    "Fills": [],
+    "DeletedFills": []
+  },
+  {
+    "MarketName": "BTC-ETH",
+    "Nonce": 1172901,
+    "Buys": [],
+    "Sells": [
+      {
+        "Type": 1,
+        "Rate": 0.02536625,
+        "Quantity": 0
+      },
+      {
+        "Type": 0,
+        "Rate": 0.02868988,
+        "Quantity": 0.2015
+      }
+    ],
+    "Fills": [],
+    "DeletedFills": []
+  },
+  {
+    "MarketName": "BTC-ETH",
+    "Nonce": 1172902,
+    "Buys": [
+      {
+        "Type": 0,
+        "Rate": 0.02510574,
+        "Quantity": 3.16580925
+      },
+      {
+        "Type": 1,
+        "Rate": 0.0208,
+        "Quantity": 0
+      }
+    ],
+    "Sells": [],
+    "Fills": [],
+    "DeletedFills": []
+  },
+  {
+    "MarketName": "BTC-ETH",
+    "Nonce": 1172903,
+    "Buys": [
+      {
+        "Type": 1,
+        "Rate": 0.02510574,
+        "Quantity": 0
+      },
+      {
+        "Type": 0,
+        "Rate": 0.0208,
+        "Quantity": 1.42780237
+      }
+    ],
+    "Sells": [],
+    "Fills": [],
+    "DeletedFills": []
+  }
+]

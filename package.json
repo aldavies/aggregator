@@ -5,8 +5,10 @@
   "repository": "git@github.com:aldavies/aggregator.git",
   "author": "aldavies <aldavies@umich.edu>",
   "license": "MIT",
-  "dependencies": {
-    "@givanse/node-bittrex-api": "^0.8.5",
-    "coinbase-pro": "^0.9.0"
+  "scripts": {
+    "start": "lerna exec -- yarn start"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
   }
 }

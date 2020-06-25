@@ -1,25 +1,22 @@
 const exchanges = require("./cctx/ccxt.js"),
-  fs = require("fs");
+  fs = require("fs"),
+  CoinbasePro = require('coinbase-pro'),
+  bittrex = require('@givanse/node-bittrex-api');
 
-// const hi = (async () => {
-//   let kraken = new exchanges.coinbasepro();
-//   let markets = await kraken.load_markets();
-//   console.log(kraken.id, markets);
-//   fs.writeFile("exchanges.json", JSON.stringify(markets), () => {
-//     console.log(exchanges);
-//   });
-// })();
+// Grab all exchanges from cctx
 let exchangeList = exchanges
 fs.writeFile("exchanges.json", JSON.stringify(exchangeList), () => {
   console.log(exchangeList);
 });
+////////////////////////////////
 
-const CoinbasePro = require('coinbase-pro');
-const publicClient = new CoinbasePro.PublicClient();
+//////////////////////////////// Coinbase
 const websocket = new CoinbasePro.WebsocketClient(['BTC-USD', 'ETH-USD']);
-let hi = []
+
+let coinbaseproStream = []
+
 websocket.on('message', data => {
-  hi.push(data)
+  coinbaseproStream.push(data)
 });
 websocket.on('error', err => {
   /* handle error */
@@ -27,11 +24,36 @@ websocket.on('error', err => {
 websocket.on('close', () => {
 
 });
+/////////////////////////////////////////////////
 
+/////////////////// Write to json file as an example to see data for coinbasePro. Remove this later
 setInterval(() => {
-  fs.writeFile("data.json", JSON.stringify(hi), () => {
+  fs.writeFile("coinBaseProData.json", JSON.stringify(coinbaseproStream), () => {
     console.log('hi');
   });
 }, 200);
+/////////////////////////////////////////////////
 
-console.log(JSON.stringify(exchanges));
+//////////////////// Bittrex
+let bittrexStream = []
+
+bittrex.websockets.client(function () {
+  console.log('Websocket connected');
+  bittrex.websockets.subscribe(['BTC-ETH'], (data) => {
+    if (data.M === 'updateExchangeState') {
+      data.A.forEach((data_for) => {
+        bittrexStream.push()
+        console.log('Market Update for ' + data_for.MarketName, data_for);
+      });
+    }
+  });
+});
+//////////////////////////////////////////
+
+/////////////////// Write to json file as an example to see data for bittrex. Remove this later
+setInterval(() => {
+  fs.writeFile("bittrexData.json", JSON.stringify(coinbaseproStream), () => {
+    console.log('hi');
+  });
+}, 200);
+/////////////////////////////////////////////////
